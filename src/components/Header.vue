@@ -1,7 +1,7 @@
 <template>
   <v-app-bar style="padding: 0 90px"
              app
-             color="white"
+             color="grey lighten-3"
              light
              elevation="6"
              elevate-on-scroll
@@ -10,7 +10,7 @@
       Резюме
     </v-toolbar-title>
     <v-spacer/>
-    <v-list class="d-flex align-center">
+    <v-list class="d-flex align-center grey lighten-3">
       <v-list-item link v-for="(menu, index) in menus" :key="index" :to="menu.route">
         <v-list-item-title>{{ menu.title }}</v-list-item-title>
       </v-list-item>
@@ -29,12 +29,12 @@ export default {
   data() {
     return {
       menus: [
-        {title: 'Home',      route: 'home'},
-        {title: 'About',     route: 'about'},
+        {title: 'Home', route: 'home'},
+        {title: 'About', route: 'about'},
         {title: 'Portfolio', route: 'portfolio'},
-        {title: 'Project',   route: 'project'},
-        {title: 'Gallery',   route: 'gallery'},
-        {title: 'Contact',   route: 'contact'},
+        {title: 'Project', route: 'project'},
+        {title: 'Gallery', route: 'gallery'},
+        {title: 'Contact', route: 'contact'},
       ]
     }
   }
@@ -42,5 +42,10 @@ export default {
 </script>
 
 <style scoped>
-
+.v-toolbar__title {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: cursive;
+  color: #444444;
+}
 </style>
