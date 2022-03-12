@@ -7,7 +7,10 @@
           Вы можете увидеть меня на GitHub,
           а так-же несколько моих работ с кодом.
           </p>
-        <v-btn color="red lighten-1" class="white--text mr-7" rounded>Начать</v-btn>
+        <v-btn target="_blank" href="https://github.com/maxkolt?tab=repositories" class="white--text mr-7" color="red lighten-1" rounded>
+          <v-icon left size="20">mdi-github</v-icon>
+          GitHub
+        </v-btn>
         <v-btn color="teal lighten-2" class="white--text" rounded>
           <v-icon> mdi-cloud-upload</v-icon>
           Скачать резюме
