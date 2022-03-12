@@ -4,6 +4,7 @@
     <v-main>
       <MyComponents/>
       <Education/>
+      <Portfolio/>
     </v-main>
   </v-app>
 </template>
@@ -14,10 +15,11 @@
 import Header from "@/components/Header";
 import MyComponents from "@/components/MyComponent";
 import Education from "@/components/Education";
+import Portfolio from "@/components/Portfolio";
 
 export default {
   name: 'App',
-  components: {Education, MyComponents, Header},
+  components: {Portfolio, Education, MyComponents, Header},
   data() {
     return {
       menus: [
