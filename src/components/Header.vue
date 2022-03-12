@@ -30,7 +30,7 @@ export default {
     return {
       menus: [
         {title: 'Home', route: 'home'},
-        {title: 'About', route: 'about'},
+        {title: 'Education', route: 'education'},
         {title: 'Portfolio', route: 'portfolio'},
         {title: 'Project', route: 'project'},
         {title: 'Gallery', route: 'gallery'},

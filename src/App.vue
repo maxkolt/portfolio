@@ -1,8 +1,9 @@
 <template>
   <v-app>
-<Header/>
+    <Header/>
     <v-main>
-<MyComponents/>
+      <MyComponents/>
+      <Education/>
     </v-main>
   </v-app>
 </template>
@@ -12,18 +13,20 @@
 
 import Header from "@/components/Header";
 import MyComponents from "@/components/MyComponent";
+import Education from "@/components/Education";
+
 export default {
   name: 'App',
-  components: {MyComponents, Header},
+  components: {Education, MyComponents, Header},
   data() {
     return {
       menus: [
-        {title: 'Home',      route: 'home'},
-        {title: 'About',     route: 'about'},
+        {title: 'Home', route: 'home'},
+        {title: 'Education', route: 'education'},
         {title: 'Portfolio', route: 'portfolio'},
-        {title: 'Project',   route: 'project'},
-        {title: 'Gallery',   route: 'gallery'},
-        {title: 'Contact',   route: 'contact'},
+        {title: 'Project', route: 'project'},
+        {title: 'Gallery', route: 'gallery'},
+        {title: 'Contact', route: 'contact'},
       ]
     }
   }
