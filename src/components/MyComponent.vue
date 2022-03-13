@@ -17,7 +17,7 @@
         </v-btn>
       </v-col>
       <v-col lg="6">
-        <img width="100%" src="./../assets/Web-Design-Development-PNG-Image-1024x872.png" alt="img"/>
+        <img width="100%" src="../assets/img/Web-Design-Development-PNG-Image-1024x872.png" alt="img"/>
       </v-col>
     </v-row>
   </v-container>

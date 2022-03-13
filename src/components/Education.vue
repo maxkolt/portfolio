@@ -3,7 +3,7 @@
     <v-subheader class="text">Мое обучение</v-subheader>
     <v-row>
       <v-col lg="6">
-        <img class="image" src="./../assets/education-student.png" alt="img">
+        <img class="image" src="../assets/img/education-student.png" alt="img">
       </v-col>
       <v-col lg="6" class="mt-10">
         <v-col lg="12">
