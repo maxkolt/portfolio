@@ -5,7 +5,7 @@
       <v-col lg="6">
         <img class="image" src="./../assets/education-student.png" alt="img">
       </v-col>
-      <v-col lg="6">
+      <v-col lg="6" class="mt-10">
         <v-col lg="12">
           <v-card class="pa-6 rounded-xl " elevation="5">
             <div class="d-flex align-center justify-space-between">
@@ -55,7 +55,6 @@ export default {
 <style scoped>
 .image {
   margin-top: 5rem;
-  margin-right: 5rem;
   width: 100%;
 }
 
