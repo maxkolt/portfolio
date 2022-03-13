@@ -29,12 +29,11 @@ export default {
   data() {
     return {
       menus: [
-        {title: 'Home', route: 'home'},
-        {title: 'Education', route: 'education'},
-        {title: 'Portfolio', route: 'portfolio'},
-        {title: 'Project', route: 'project'},
-        {title: 'Gallery', route: 'gallery'},
-        {title: 'Contact', route: 'contact'},
+        {title: 'Главная', route: 'home'},
+        {title: 'Обучение', route: 'education'},
+        {title: 'Галерея', route: 'portfolio'},
+        {title: 'Навыки', route: 'project'},
+        {title: 'Контакт', route: 'contact'},
       ]
     }
   }
