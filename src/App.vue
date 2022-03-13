@@ -2,9 +2,11 @@
   <v-app>
     <Header/>
     <v-main>
-      <MyComponents/>
+      <MyComponent/>
       <Education/>
       <Portfolio/>
+      <Skills/>
+      <Contacts/>
     </v-main>
   </v-app>
 </template>
@@ -13,13 +15,15 @@
 
 
 import Header from "@/components/Header";
-import MyComponents from "@/components/MyComponent";
+import MyComponent from "@/components/MyComponent";
 import Education from "@/components/Education";
 import Portfolio from "@/components/Portfolio";
-
+import Skills from "@/components/Skills"
+import MyComponents from "@/components/MyComponent";
+import Contacts from "@/components/Contacts";
 export default {
   name: 'App',
-  components: {Portfolio, Education, MyComponents, Header},
+  components: {Contacts, MyComponents, Portfolio, Education, MyComponent, Header, Skills},
   data() {
     return {
       menus: [
