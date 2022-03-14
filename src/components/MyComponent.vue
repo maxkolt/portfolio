@@ -1,5 +1,5 @@
 <template>
-  <v-container class="mt-16">
+  <v-container class="mt-10">
     <v-row>
       <v-col lg="6">
         <h2 class="intro-text">Привет! Я Frontend-разработчик</h2>
@@ -17,7 +17,7 @@
         </v-btn>
       </v-col>
       <v-col lg="6">
-        <img width="100%" src="../assets/img/Web-Design-Development-PNG-Image-1024x872.png" alt="img"/>
+        <img width="100%" src="../assets/img/Web-Design-Development.png" alt="img"/>
       </v-col>
     </v-row>
   </v-container>
@@ -25,7 +25,7 @@
 
 <script>
 export default {
-  name: "MyComponents"
+  name: "MyComponent"
 }
 </script>
 

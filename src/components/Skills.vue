@@ -1,5 +1,5 @@
 <template>
-  <v-container class="my-10">
+  <v-container class="mt-10">
     <v-row justify="center">
       <v-col lg="12" class="text-center">
         <v-subheader class="text justify-center">Мои навыки</v-subheader>
@@ -52,7 +52,7 @@
 <script>
 
 export default {
-  name: "Skils"
+  name: "Skills"
 
 }
 </script>
@@ -64,7 +64,8 @@ export default {
   font-family: cursive;
   font-weight: 700;
 }
-.mb-10{
+
+.mb-10 {
   margin-top: 5rem;
   font-size: 40px;
 }

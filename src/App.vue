@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <Header/>
     <v-main>
+      <Header/>
       <MyComponent/>
       <Education/>
       <Portfolio/>
@@ -29,6 +29,10 @@ export default {
   data() {
     return {
     }
-  }
-};
+  },
+
+}
 </script>
+
+<style lang="scss">
+</style>
