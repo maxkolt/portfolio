@@ -12,7 +12,7 @@
           GitHub
         </v-btn>
         <v-btn color="teal lighten-2" class="white--text" rounded>
-          <v-icon> mdi-cloud-upload</v-icon>
+          <v-icon left>mdi-cloud-upload</v-icon>
           Скачать резюме
         </v-btn>
       </v-col>

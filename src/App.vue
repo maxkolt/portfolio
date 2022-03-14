@@ -28,14 +28,6 @@ export default {
   components: {Footer, Contacts, Portfolio, Education, MyComponent, Header, Skills},
   data() {
     return {
-      menus: [
-        {title: 'Home', route: 'home'},
-        {title: 'Education', route: 'education'},
-        {title: 'Portfolio', route: 'portfolio'},
-        {title: 'Project', route: 'project'},
-        {title: 'Gallery', route: 'gallery'},
-        {title: 'Contact', route: 'contact'},
-      ]
     }
   }
 };

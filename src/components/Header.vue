@@ -7,6 +7,12 @@
              elevate-on-scroll
   >
     <v-toolbar-title>
+      <v-avatar class="mb-2">
+        <img
+            src="https://cdn.vuetifyjs.com/images/john.jpg"
+            alt="Max"
+        >
+      </v-avatar>
       Резюме
     </v-toolbar-title>
     <v-spacer/>
