@@ -2,7 +2,7 @@
   <v-app class="flex">
     <v-main>
       <Header/>
-      <MainPage/>
+      <Main/>
       <Education/>
       <Portfolio/>
       <Skills/>
@@ -16,7 +16,7 @@
 
 
 import Header from "@/components/Header";
-import MainPage from "@/components/MainPage";
+import Main from "@/components/Main";
 import Education from "@/components/Education";
 import Portfolio from "@/components/Portfolio";
 import Skills from "@/components/Skills"
@@ -25,7 +25,7 @@ import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
-  components: {Footer, Contacts, Portfolio, Education, MainPage, Header, Skills},
+  components: {Footer, Contacts, Portfolio, Education, Main, Header, Skills},
   data() {
     return {}
   },

@@ -1,6 +1,6 @@
 <template>
   <v-container class="mt-10">
-    <h2 class="text">Мое обучение</h2>
+    <h2 class="text">Моё обучение</h2>
     <v-row>
       <v-col lg="6">
         <img alt="img" class="image" src="../assets/img/education-student.png">

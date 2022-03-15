@@ -1,19 +1,8 @@
-# portfolio
+# Мое резюме
+###  Проект написан на VUE.js 
+#### **Использовал:**
+1.Vuetify
 
-## Project setup
-```
-npm install
-```
+2.Sass/Scss
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](src/assets/img/project.png)

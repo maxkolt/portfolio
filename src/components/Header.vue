@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import MyComponent from "@/components/MainPage";
+import MyComponent from "@/components/Main";
 
 export default {
   name: "Header",
