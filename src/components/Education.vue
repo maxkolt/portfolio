@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="mt-10">
     <v-subheader class="text">Мое обучение</v-subheader>
     <v-row>
       <v-col lg="6">
