@@ -5,4 +5,4 @@
 
 2.Sass/Scss
 
-![](src/assets/img/project.png)
+![](src/assets/img/project.jpg)

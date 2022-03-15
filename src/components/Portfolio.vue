@@ -77,9 +77,10 @@ export default {
         {title: '', image: 'https://udemy-certificate.s3.amazonaws.com/image/UC-c91a29d0-f43b-48df-b290-a0aa9cd46c1c.jpg'},
         {title: '', image: 'https://udemy-certificate.s3.amazonaws.com/image/UC-YSVYRISC.jpg'},
         {title: '', image: 'https://udemy-certificate.s3.amazonaws.com/image/UC-8083af02-8a18-4098-8300-a318d2480c99.jpg'},
+        {title: '', image: 'file:///C:/Users/Администратор/Downloads/diploma_page-0001.jpg'},
       ],
       webApps: [
-        {title: 'Project 1', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
+        {title: 'Project 1', image: 'https://github.com/maxkolt/portfolio/raw/master/src/assets/img/project.png'},
         {title: 'Project 2', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
         {title: 'Project 3', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
         {title: 'Project 5', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
