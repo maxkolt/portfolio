@@ -13,7 +13,7 @@
       Резюме
     </div>
     <v-spacer/>
-    <v-list class="d-flex grey lighten-3" >
+    <v-list class="text-nav d-flex grey lighten-3" >
       <v-list-item v-for="(menu, index) in menus" :key="index" :to="menu.route" link>
         <v-list-item-title>{{ menu.title }}</v-list-item-title>
       </v-list-item>
@@ -30,7 +30,7 @@
 </template>
 
 <script>
-import MyComponent from "@/components/MyComponent";
+import MyComponent from "@/components/MainPage";
 
 export default {
   name: "Header",
@@ -83,7 +83,7 @@ export default {
   font-family: cursive;
   color: #444444;
 }
-.d-flex {
+.text-nav {
   font-family: cursive;
   align-items: center;
 }

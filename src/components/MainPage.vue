@@ -26,14 +26,14 @@
 
 <script>
 export default {
-  name: "MyComponent"
+  name: "MainPage"
 }
 </script>
 
 <style lang="scss">
 .intro-text {
   font-size: 50px;
-  line-height: 3rem;
+  line-height: 4rem;
   font-weight: bold;
   font-family: cursive;
   color: #444444;

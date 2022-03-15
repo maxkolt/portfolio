@@ -3,7 +3,7 @@
     <v-row justify="center">
       <v-col class="text-center" lg="12">
         <h2 class="text justify-center">Мои работы</h2>
-        <p>Вашему вниманию представлены несколько моих работ, а также сертификаты об окончании обучения</p>
+        <p style="font-family: cursive">Вашему вниманию представлены несколько моих работ, а также сертификаты об окончании обучения</p>
       </v-col>
       <v-col lg="12">
         <div class="text-center">
