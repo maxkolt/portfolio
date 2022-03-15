@@ -57,12 +57,13 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .text {
   margin-top: 5rem;
   font-size: 40px;
   font-family: cursive;
   font-weight: 700;
+  color: #444444;
 }
 
 .mb-10 {

@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .image {
   margin-top: 5rem;
   width: 100%;
@@ -64,5 +64,6 @@ export default {
   font-size: 40px;
   font-family: cursive;
   font-weight: 700;
+  color: #444444;
 }
 </style>

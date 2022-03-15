@@ -27,7 +27,6 @@
         </v-subheader>
       </div>
     </v-col>
-
   </v-footer>
 </template>
 
@@ -51,9 +50,5 @@ export default {
   font-weight: 700;
   font-family: cursive;
   color: #555555;
-}
-
-.height {
-  height: 2rem;
 }
 </style>

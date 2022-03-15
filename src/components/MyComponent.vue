@@ -1,5 +1,5 @@
 <template class="">
-  <v-container class="mt-10">
+  <v-container class="mt-16">
     <v-row>
       <v-col lg="6">
         <h2 class="intro-text">Привет! Я Frontend-разработчик</h2>
@@ -30,13 +30,13 @@ export default {
 }
 </script>
 
-<style scoped>
-h2.intro-text {
+<style lang="scss">
+.intro-text {
   font-size: 50px;
   line-height: 3rem;
   font-weight: bold;
   font-family: cursive;
-  color: #444;
+  color: #444444;
   margin-top: 10rem;
 }
 

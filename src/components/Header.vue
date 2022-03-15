@@ -6,15 +6,12 @@
              light
              style="padding: 0 90px"
   >
-    <v-toolbar-title style="font-size: 2rem">
-      <v-avatar class="mb-1">
-        <img
-            alt="Max"
-            src="https://cdn.vuetifyjs.com/images/john.jpg"
-        >
-      </v-avatar>
+    <v-avatar class="mr-2">
+      <img alt="Max" src="https://cdn.vuetifyjs.com/images/john.jpg">
+    </v-avatar>
+    <v-tootbar-title class="text-header">
       Резюме
-    </v-toolbar-title>
+    </v-tootbar-title>
     <v-spacer/>
     <v-list class="d-flex align-center grey lighten-3">
       <v-list-item v-for="(menu, index) in menus" :key="index" :to="menu.route" link>
@@ -80,8 +77,8 @@ export default {
 </script>
 
 <style lang="scss">
-.v-toolbar__title {
-  font-size: 5rem;
+.text-header {
+  font-size: 2.5rem;
   font-weight: 700;
   font-family: cursive;
   color: #444444;
