@@ -1,27 +1,27 @@
 <template>
-  <v-app-bar style="padding: 0 90px"
-             app
+  <v-app-bar app
              color="grey lighten-3"
-             light
-             elevation="6"
              elevate-on-scroll
+             elevation="6"
+             light
+             style="padding: 0 90px"
   >
     <v-toolbar-title style="font-size: 2rem">
       <v-avatar class="mb-1">
         <img
-            src="https://cdn.vuetifyjs.com/images/john.jpg"
             alt="Max"
+            src="https://cdn.vuetifyjs.com/images/john.jpg"
         >
       </v-avatar>
       Резюме
     </v-toolbar-title>
     <v-spacer/>
     <v-list class="d-flex align-center grey lighten-3">
-      <v-list-item link v-for="(menu, index) in menus" :key="index" :to="menu.route">
+      <v-list-item v-for="(menu, index) in menus" :key="index" :to="menu.route" link>
         <v-list-item-title>{{ menu.title }}</v-list-item-title>
       </v-list-item>
       <div class="flex ml-3">
-        <div class="mode-toggle" @click="modeToggle" :class="darkDark">
+        <div :class="darkDark" class="mode-toggle" @click="modeToggle">
           <div class="toggle">
             <div id="dark-mode" type="checkbox"></div>
           </div>
@@ -34,6 +34,7 @@
 
 <script>
 import MyComponent from "@/components/MyComponent";
+
 export default {
   name: "Header",
   components: {MyComponent},
@@ -86,7 +87,7 @@ export default {
   color: #444444;
 }
 
-$dark: #5c5b5c;
+$dark: #373637;
 $mode-toggle-bg: #0a1e39;
 
 body {
@@ -94,11 +95,19 @@ body {
   color: $dark;
   transition: background-color .2s ease, color .2s ease;
 }
+
 body {
   &.dark-mode {
-    background-color: lighten($dark, 10%);
+    background-color: lighten($dark, 5%);
+
+    .flex {
+      h2, h6, p {
+        color: #d6d3d3;
+      }
+    }
   }
 }
+
 .mode-toggle {
   position: relative;
   padding: 10px;
@@ -172,6 +181,7 @@ body.dark-mode {
     }
   }
 }
+
 html, body, #app, {
   width: 100%;
   height: 1%;

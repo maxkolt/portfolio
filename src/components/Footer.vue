@@ -1,14 +1,14 @@
 <template>
-  <v-footer padless>
-    <v-col lg="12" >
+  <v-footer color="grey lighten-3">
+    <v-col class="mt-5" lg="12">
       <v-row justify="center">
-        <v-col lg="4" class="text-center">
+        <v-col class="text-center" lg="12">
           <v-toolbar-title>Frontend-developer</v-toolbar-title>
           <v-card-text>
             <v-btn
                 v-for="icon in icons"
                 :key="icon"
-                class="mx-4 grey--text"
+                class="mx-2 grey--text"
                 icon
             >
               <v-icon size="24px">
@@ -18,7 +18,7 @@
           </v-card-text>
         </v-col>
       </v-row>
-      <div class="mt-5">
+      <div class="mt-2">
         <v-divider></v-divider>
         <v-subheader>
           {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
@@ -45,11 +45,15 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .v-toolbar__title {
   font-size: 25px;
   font-weight: 700;
   font-family: cursive;
   color: #555555;
+}
+
+.height {
+  height: 2rem;
 }
 </style>

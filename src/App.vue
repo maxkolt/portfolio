@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="flex">
     <v-main>
       <Header/>
       <MyComponent/>
@@ -27,8 +27,7 @@ export default {
   name: 'App',
   components: {Footer, Contacts, Portfolio, Education, MyComponent, Header, Skills},
   data() {
-    return {
-    }
+    return {}
   },
 
 }

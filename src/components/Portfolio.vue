@@ -1,18 +1,18 @@
 <template>
   <v-container class="my-10">
     <v-row justify="center">
-      <v-col lg="12" class="text-center">
-        <v-subheader class="text justify-center">Мои работы</v-subheader>
+      <v-col class="text-center" lg="12">
+        <h2 class="text justify-center">Мои работы</h2>
         <p>Вашему вниманию представлены несколько моих работ, а также сертификаты об окончании обучения</p>
       </v-col>
       <v-col lg="12">
         <div class="text-center">
 
           <v-chip
-              @click="activePortfolio = 'webapp'"
-              class="ma-2"
               :color="activePortfolio === 'webapp' ? 'teal lighten-1' : '' "
+              class="ma-2"
               outlined
+              @click="activePortfolio = 'webapp'"
           >
             <v-icon left>
               mdi-server-plus
@@ -21,10 +21,10 @@
           </v-chip>
 
           <v-chip
-              @click="activePortfolio = 'certificate'"
-              class="ma-2"
               :color="activePortfolio === 'certificate' ? 'red lighten-1' : ''"
+              class="ma-2"
               outlined
+              @click="activePortfolio = 'certificate'"
           >
             Сертификаты
             <v-icon right>
@@ -35,7 +35,7 @@
 
       </v-col>
       <slot v-if="activePortfolio === 'webapp' ">
-        <v-col lg="3" v-for="(web, webindex) in webApps" :key="webindex">
+        <v-col v-for="(web, webindex) in webApps" :key="webindex" lg="3">
           <v-card>
             <v-img
                 :src="web.image"
@@ -49,7 +49,7 @@
         </v-col>
       </slot>
       <slot v-if="activePortfolio === 'certificate' ">
-        <v-col lg="3" v-for="(certificat, certificatindex) in certificateApps" :key="certificatindex">
+        <v-col v-for="(certificat, certificatindex) in certificateApps" :key="certificatindex" lg="3">
           <v-card>
             <v-img
                 :src="certificat.image"
@@ -73,12 +73,30 @@ export default {
     return {
       activePortfolio: 'webapp',
       webApps: [
-        {title: 'Project 1', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
-        {title: 'Project 2', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
-        {title: 'Project 3', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
-        {title: 'Project 5', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
-        {title: 'Project 5', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
-        {title: 'Project 6', image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'},
+        {
+          title: 'Project 1',
+          image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'
+        },
+        {
+          title: 'Project 2',
+          image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'
+        },
+        {
+          title: 'Project 3',
+          image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'
+        },
+        {
+          title: 'Project 5',
+          image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'
+        },
+        {
+          title: 'Project 5',
+          image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'
+        },
+        {
+          title: 'Project 6',
+          image: 'https://avatars.mds.yandex.net/i?id=40847cb65e1af4fe306e7378f133ec9c-5887333-images-thumbs&n=13'
+        },
       ],
       certificateApps: [
         {title: 'Certificate 1', image: 'http://flash7.ru/images/img-for-site-dev-1/FL-Center-Certif01-rgb-small.jpg'},

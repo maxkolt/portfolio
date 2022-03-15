@@ -1,49 +1,49 @@
 <template>
-  <v-container class="mt-10">
+  <v-container>
     <v-row justify="center">
-      <v-col lg="12" class="text-center">
-        <v-subheader class="text justify-center">Мои навыки</v-subheader>
+      <v-col class="text-center" lg="12">
+        <h2 class="text justify-center">Мои навыки</h2>
       </v-col>
     </v-row>
     <div class="mb-10">
       <h6>HTML</h6>
       <v-progress-linear
-          color="orange darken-4"
           buffer-value="0"
-          value="93"
+          color="orange darken-4"
           stream
+          value="93"
       ></v-progress-linear>
       <br>
       <h6>CSS</h6>
       <v-progress-linear
-          color="deep-purple accent-4"
           buffer-value="0"
-          value="85"
+          color="deep-purple accent-4"
           stream
+          value="85"
       ></v-progress-linear>
       <br>
       <h6>JS</h6>
       <v-progress-linear
-          color="yellow accent-3"
           buffer-value="80"
-          value="75"
+          color="yellow accent-3"
           stream
+          value="75"
       ></v-progress-linear>
       <br>
       <h6>VUE</h6>
       <v-progress-linear
-          color="teal lighten-1"
           buffer-value="76"
-          value="65"
+          color="teal lighten-1"
           stream
+          value="65"
       ></v-progress-linear>
       <br>
       <h6>TypeScript</h6>
       <v-progress-linear
-          color="cyan darken-3"
           buffer-value="87"
-          value="73"
+          color="cyan darken-3"
           stream
+          value="73"
       ></v-progress-linear>
     </div>
   </v-container>
@@ -66,7 +66,7 @@ export default {
 }
 
 .mb-10 {
-  margin-top: 5rem;
+  margin-top: 4rem;
   font-size: 40px;
 }
 </style>

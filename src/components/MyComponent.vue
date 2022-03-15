@@ -1,4 +1,4 @@
-<template>
+<template class="">
   <v-container class="mt-10">
     <v-row>
       <v-col lg="6">
@@ -6,18 +6,19 @@
         <p class="description">В настоящее время фрилансер.
           Вы можете увидеть меня на GitHub,
           а так-же несколько моих работ с кодом.
-          </p>
-        <v-btn target="_blank" href="https://github.com/maxkolt?tab=repositories" class="white--text mr-7" color="red lighten-1" rounded>
+        </p>
+        <v-btn class="white--text mr-7" color="red lighten-1" href="https://github.com/maxkolt?tab=repositories"
+               rounded target="_blank">
           <v-icon left size="20">mdi-github</v-icon>
           GitHub
         </v-btn>
-        <v-btn color="teal lighten-2" class="white--text" rounded>
+        <v-btn class="white--text" color="teal lighten-2" rounded>
           <v-icon left>mdi-cloud-upload</v-icon>
           Скачать резюме
         </v-btn>
       </v-col>
       <v-col lg="6">
-        <img width="100%" src="../assets/img/Web-Design-Development.png" alt="img"/>
+        <img alt="img" src="../assets/img/Web-Design-Development.png" width="100%"/>
       </v-col>
     </v-row>
   </v-container>
@@ -30,15 +31,16 @@ export default {
 </script>
 
 <style scoped>
-h2.intro-text{
+h2.intro-text {
   font-size: 50px;
   line-height: 3rem;
   font-weight: bold;
   font-family: cursive;
   color: #444;
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
-p.description{
+
+p.description {
   font-size: 19px;
   font-family: cursive;
   margin: 30px 0;
