@@ -1,7 +1,7 @@
 <template>
-  <v-container class="mt-10 mb-16">
+  <v-container class="mb-16">
     <v-row justify="center">
-      <v-col class="text-center mt-5" lg="12">
+      <v-col class="text-center mt-" lg="12">
         <h2 class="text justify-center">Контакт</h2>
       </v-col>
       <v-col class="mt-12" lg="6">

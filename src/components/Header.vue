@@ -9,11 +9,11 @@
     <v-avatar class="mr-2">
       <img alt="Max" src="https://cdn.vuetifyjs.com/images/john.jpg">
     </v-avatar>
-    <v-tootbar-title class="text-header">
+    <div class="text-header">
       Резюме
-    </v-tootbar-title>
+    </div>
     <v-spacer/>
-    <v-list class="d-flex align-center grey lighten-3">
+    <v-list class="d-flex grey lighten-3" >
       <v-list-item v-for="(menu, index) in menus" :key="index" :to="menu.route" link>
         <v-list-item-title>{{ menu.title }}</v-list-item-title>
       </v-list-item>
@@ -78,10 +78,14 @@ export default {
 
 <style lang="scss">
 .text-header {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   font-weight: 700;
   font-family: cursive;
   color: #444444;
+}
+.d-flex {
+  font-family: cursive;
+  align-items: center;
 }
 
 $dark: #373637;
